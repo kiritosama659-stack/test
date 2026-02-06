@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bấm {
+            width: 100px;/*chiều rộng*/
+            height: 50px;/*dài*/
+            border: 2px solid black;
+            display:flex;
+            justify-content:center ;
+            align-items: center;
+            text-align: center;
+            margin:0 auto;
+
+        }
+        .anh {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px; /* khoảng cách giữ các ô*/
+            max-width: 500px;
+            margin:50px auto;
+        }
+        .anh img{
+            width: 100%;
+            height:200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        ☰
+    </div>
+    <h1>Chào mừng bạn đến với trang của tôi</h1>
+    <div class="bấm">Mời bạn nhấm vô</div>
+    <div class="anh">
+        <img src="https://www.bing.com/th/id/OIP.VTWB82SW2b102M4tl1qRcgHaIv?w=193&h=227&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="ảnh một" title="ảnh dể thương">
+        <img src="https://www.bing.com/th/id/OIP.N6q08sVZ7QRDXXhP027I0QHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="ảnh hai" title="ảnh đẹp trai">
+        <img src="https://www.bing.com/th/id/OIP.b33NEEDkN-oTIX0H7pmkGQHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="ảnh ba" title="ảnh ngầu lòi">
+        <img src="https://www.bing.com/th/id/OIP.4j0QM7z_Lq8S01K2mLeCjwHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="ảnh bốn" title="ảnh ngầu đứt">
+    </div>
+</body>
+</html>
